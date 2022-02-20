@@ -1,0 +1,54 @@
+.hero {
+	padding: 20px 0;
+	/* height: 100vh; */
+}
+.hero__box {
+	width: 350px;
+	display: flex;
+	flex-direction: column;
+	text-align: justify;
+	text-justify: inter-ideograph;
+}
+.hero__text__title {
+	margin: 40px 0 20px 0;
+	letter-spacing: 0.1rem;
+	font-size: 200%;
+}
+.hero__headings {
+	display: flex;
+	flex-direction: column;
+	font-family: 'Red Hat Display', sans-serif;
+}
+.hero__headings__title {
+	color: #1a241e;
+	text-transform: uppercase;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+	font-size: 300%;
+}
+.hero__headings__subtitle {
+	background: #1a241e;
+	padding: 2px 20px;
+	display: flex;
+	justify-content: space-between;
+	font-size: 90%;
+}
+@media (min-width: 1024px) {
+	.hero {
+		min-height: 100vh;
+		box-sizing: border-box;
+	}
+}
+@media (max-width: 767px) {
+  .hero {
+    height: auto;
+  }
+	.hero__box {
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	.hero figure img {
+		width: 80%;
+	}
+}

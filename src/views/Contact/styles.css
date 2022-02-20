@@ -1,0 +1,48 @@
+.contact {
+	text-align: center;
+	padding: 40px 0 0 0;
+}
+.contact__email {
+	margin: 50px auto;
+	background: #78bea0;
+	color: #fff;
+	padding: 20px 0;
+	width: 50%;
+	font-size: 140%;
+}
+.contact__list {
+	width: 300px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+}
+.contact__list__link {
+	width: 42px;
+	height: 42px;
+	display: inline-block;
+	text-indent: -9999px;
+}
+.contact__list__link__github {
+	background: url(./assets/images/contact/icon-github.svg) no-repeat center center;
+	opacity: 0.4;
+}
+.contact__list__link__linkedin {
+	background: url(./assets/images/contact/icon-linkedin.svg) no-repeat center center;
+	opacity: 0.3;
+	width: 50px;
+	height: 50px;
+}
+.contact__list__link__codesandbox {
+	background: url(./assets/images/contact/icon-codesandbox.svg) no-repeat center
+		center;
+	opacity: 0.3;
+}
+@media (max-width: 767px) {
+	.contact__email {
+		width: 70%;
+		font-size: 120%;
+	}
+	.contact__list {
+		width: 50%;
+	}
+}

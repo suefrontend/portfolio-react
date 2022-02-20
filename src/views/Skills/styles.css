@@ -1,0 +1,105 @@
+.skills {
+	padding: 40px 0;
+}
+
+.skills-list {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0;
+	padding: 0;
+}
+.skills-item-wrap {
+	margin: 0 15px 15px 0;
+	width: calc(33.3333% - 15px);
+	padding-top: 33.3333%;
+	position: relative;
+	background: #fff;
+	box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.2);
+}
+.skills-item-wrap:nth-child(3n) {
+	margin-right: 0;
+}
+.skills-item {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+}
+.skills-item-wrap {
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.skills-item-html {
+	background: url(./assets/images/skills/icon-html.svg) no-repeat center center;
+	background-size: 70%;
+}
+.skills-item-react {
+	background: url(./assets/images/skills/icon-react.svg) no-repeat center center;
+	background-size: 70%;
+}
+.skills-item-css {
+	background: url(./assets/images/skills/icon-css.svg) no-repeat center center;
+	background-size: 70%;
+}
+.skills-item-javascript {
+	background: url(./assets/images/skills/icon-javascript.svg) no-repeat center center;
+	background-size: 70%;
+}
+.skills-item-vue {
+	background: url(./assets/images/skills/icon-vue.svg) no-repeat center center;
+	background-size: 70%;
+}
+.skills-item-photoshop {
+	background: url(./assets/images/skills/icon-photoshop.svg) no-repeat center center;
+	background-size: 70%;
+}
+.skills-item-illustrator {
+	background: url(./assets/images/skills/icon-illustrator.svg) no-repeat center center;
+	background-size: 70%;
+}
+.skills-item-sass {
+	background: url(./assets/images/skills/icon-sass.svg) no-repeat center center;
+	background-size: 70%;
+}
+.skills-item-wordpress {
+	background: url(./assets/images/skills/icon-wordpress.svg) no-repeat center center;
+	background-size: 70%;
+}
+.skills__label {
+	display: flex;
+	justify-content: flex-end;
+}
+.skills__label {
+	margin: 30px 0 40px 0;
+	text-transform: capitalize;
+}
+.skills__label__item {
+	border: 2px solid #78bea0;
+	margin-right: 5px;
+	padding: 5px 10px;
+	text-align: center;
+	color: #78bea0;
+}
+.skills__label__item:last-child {
+	margin-right: 0;
+}
+@media (max-width: 767px) {
+	.skills__label {
+		margin: 0 0 20px 0;
+	}
+  .skills-list {
+    margin-top: 30px;
+  }
+  /* .skills__label {
+		display: flex;
+		justify-content: space-between;
+	} */
+	.skills__label__item {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+}
