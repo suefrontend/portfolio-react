@@ -78,11 +78,6 @@ h2.page__title-center {
 .pb50 {
 	padding-bottom: 50px;
 }
-footer {
-	padding: 60px 0 20px 0;
-	text-align: center;
-	opacity: 0.8;
-}
 figure img {
 	width: 100%;
 	max-width: 100%;
@@ -124,9 +119,6 @@ figure img {
 	}
 	.col:first-child {
 		padding-right: 0;
-	}
-	.footer {
-		padding: 20px 0;
 	}
 }
 @media (min-width: 640px) {}
