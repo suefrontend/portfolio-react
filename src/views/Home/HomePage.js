@@ -2,7 +2,7 @@ import React from 'react';
 import './styles.css';
 import cubes from '../../assets/images/top/hero.jpg'
 
-const HomePage = () => {
+const Home = () => {
   return (
     <div className="page">
     <div className="page-wrapper">
@@ -68,4 +68,4 @@ const HomePage = () => {
   )
 }
 
-export default HomePage;
+export default Home;

@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles.css';
 
-const SkillsPage = () => {
+const Skills = () => {
   return (
     <div className="page page-gray">
       <div className="page-wrapper">
@@ -61,4 +61,4 @@ const SkillsPage = () => {
   )
 }
 
-export default SkillsPage;
+export default Skills;

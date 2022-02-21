@@ -1,12 +1,14 @@
 import './App.css';
-import HomePage from './views/Home/HomePage';
-import SkillsPage from './views/Skills/SkillsPage';
+import Home from './views/Home/HomePage';
+import Project from './views/Projects/ProjectsPage';
+import Skills from './views/Skills/SkillsPage';
 
 function App() {
   return (
     <div>
-      <HomePage />
-      <SkillsPage />
+      <Home />
+      <Skills />
+      <Project />
     </div>
   );
 }
