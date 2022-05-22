@@ -31,40 +31,49 @@
 	white-space: nowrap;
 	overflow: hidden;
 }
-.skills-item-html {
-	background: url(../../assets/images/skills/icon-html.svg) no-repeat center center;
+.skills-item-html5 {
+	background: url(../../assets/images/skills/icon-html.svg) no-repeat center
+		center;
 	background-size: 70%;
 }
 .skills-item-react {
-	background: url(../../assets/images/skills/icon-react.svg) no-repeat center center;
+	background: url(../../assets/images/skills/icon-react.svg) no-repeat center
+		center;
 	background-size: 70%;
 }
-.skills-item-css {
-	background: url(../../assets/images/skills/icon-css.svg) no-repeat center center;
+.skills-item-css3 {
+	background: url(../../assets/images/skills/icon-css.svg) no-repeat center
+		center;
 	background-size: 70%;
 }
 .skills-item-javascript {
-	background: url(../../assets/images/skills/icon-javascript.svg) no-repeat center center;
+	background: url(../../assets/images/skills/icon-javascript.svg) no-repeat
+		center center;
 	background-size: 70%;
 }
 .skills-item-vue {
-	background: url(../../assets/images/skills/icon-vue.svg) no-repeat center center;
+	background: url(../../assets/images/skills/icon-vue.svg) no-repeat center
+		center;
 	background-size: 70%;
 }
 .skills-item-photoshop {
-	background: url(../../assets/images/skills/icon-photoshop.svg) no-repeat center center;
+	background: url(../../assets/images/skills/icon-photoshop.svg) no-repeat
+		center center;
 	background-size: 70%;
 }
 .skills-item-illustrator {
-	background: url(../../assets/images/skills/icon-illustrator.svg) no-repeat center center;
+	background: url(../../assets/images/skills/icon-illustrator.svg) no-repeat
+		center center;
 	background-size: 70%;
 }
 .skills-item-sass {
-	background: url(../../assets/images/skills/icon-sass.svg) no-repeat center center;
+	background: url(../../assets/images/skills/icon-sass.svg) no-repeat center
+		center;
 	background-size: 70%;
 }
 .skills-item-wordpress {
-	background: url(../../assets/images/skills/icon-wordpress.svg) no-repeat center center;
+	background: url(../../assets/images/skills/icon-wordpress.svg) no-repeat
+		center center;
 	background-size: 70%;
 }
 .skills__label {
@@ -89,10 +98,10 @@
 	.skills__label {
 		margin: 0 0 20px 0;
 	}
-  .skills-list {
-    margin-top: 30px;
-  }
-  /* .skills__label {
+	.skills-list {
+		margin-top: 30px;
+	}
+	/* .skills__label {
 		display: flex;
 		justify-content: space-between;
 	} */

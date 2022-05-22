@@ -17,7 +17,7 @@
 .hero__headings {
 	display: flex;
 	flex-direction: column;
-	font-family: 'Red Hat Display', sans-serif;
+	/* font-family: 'Red Hat Display', sans-serif; */
 }
 .hero__headings__title {
 	color: #1a241e;
@@ -26,6 +26,7 @@
 	justify-content: space-between;
 	margin-bottom: 20px;
 	font-size: 300%;
+	font-family: KleinExtraLight, sans-serif;
 }
 .hero__headings__subtitle {
 	background: #1a241e;
@@ -41,9 +42,9 @@
 	}
 }
 @media (max-width: 767px) {
-  .hero {
-    height: auto;
-  }
+	.hero {
+		height: auto;
+	}
 	.hero__box {
 		width: 100%;
 		margin-bottom: 30px;

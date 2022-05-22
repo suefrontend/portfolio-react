@@ -4,7 +4,7 @@ import Contact from './views/Contact/ContactPage';
 import Home from './views/Home/HomePage';
 import Footer from './views/Layout/Footer/Footer';
 import Projects from './views/Projects/ProjectList';
-import Skills from './views/Skills/SkillsPage';
+import Skills from './views/Skills/SkillList';
 import project01 from './assets/images/projects/news-thumbnail.jpg';
 import project02 from './assets//images/projects/digiqlo.jpg';
 import project03 from './assets/images/projects/bark-walk.jpg';
@@ -59,14 +59,26 @@ const App = () => {
 		},
 	];
 
+	const skills = [
+		'JavaScript',
+		'React',
+		'Vue',
+		'PhotoShop',
+		'Illustrator',
+		'Sass',
+		'HTML5',
+		'CSS3',
+		'WordPress',
+	];
+
 	return (
-		<Fragment>
+		<>
 			<Home />
-			<Skills />
+			<Skills skills={skills} />
 			<Projects projects={projects} />
 			<Contact />
 			<Footer />
-		</Fragment>
+		</>
 	);
 };
 
