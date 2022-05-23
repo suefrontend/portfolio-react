@@ -1,4 +1,3 @@
-import { Fragment } from 'react';
 import './App.css';
 import Contact from './views/Contact/ContactPage';
 import Home from './views/Home/HomePage';
@@ -9,6 +8,7 @@ import project01 from './assets/images/projects/news-thumbnail.jpg';
 import project02 from './assets//images/projects/digiqlo.jpg';
 import project03 from './assets/images/projects/bark-walk.jpg';
 import project04 from './assets/images/projects/happy-cake.jpg';
+import Header from './views/Layout/Header/Header';
 
 const App = () => {
 	const projects = [
@@ -74,6 +74,7 @@ const App = () => {
 	return (
 		<>
 			<Home />
+			<Header />
 			<Skills skills={skills} />
 			<Projects projects={projects} />
 			<Contact />

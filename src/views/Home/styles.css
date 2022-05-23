@@ -3,7 +3,7 @@
 	/* height: 100vh; */
 }
 .hero__box {
-	width: 350px;
+	/* width: 350px; */
 	display: flex;
 	flex-direction: column;
 	text-align: justify;

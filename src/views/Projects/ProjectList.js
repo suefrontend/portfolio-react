@@ -8,7 +8,7 @@ const ProjectList = ({ projects }) => {
 	});
 
 	return (
-		<div className='page'>
+		<div className='page' id='projects'>
 			<div className='page-wrapper'>
 				<div className='project'>
 					<h2 className='page__title page__title-center'>projects</h2>

@@ -8,7 +8,7 @@ const Skills = ({ skills }) => {
 	});
 
 	return (
-		<div className='page page-gray'>
+		<div className='page page-gray' id='skills'>
 			<div className='page-wrapper'>
 				<div className='skills'>
 					<div className='grid'>
