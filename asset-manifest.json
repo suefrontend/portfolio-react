@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.35374a15.css",
-    "main.js": "/static/js/main.cd739753.js",
+    "main.css": "/static/css/main.7cbcf49e.css",
+    "main.js": "/static/js/main.7ae1e60b.js",
     "static/media/Klein-ExtraLight-trial.ttf": "/static/media/Klein-ExtraLight-trial.54edb9d15e334f4f46bb.ttf",
     "static/media/bark-walk.jpg": "/static/media/bark-walk.bc88ddc85c42acbfb91f.jpg",
     "static/media/happy-cake.jpg": "/static/media/happy-cake.1ce600fc3692127e8e5c.jpg",
@@ -21,11 +21,11 @@
     "static/media/icon-linkedin.svg": "/static/media/icon-linkedin.beca437ff906ecdaf042.svg",
     "static/media/icon-html.svg": "/static/media/icon-html.c1bb84e022ca9d76984d.svg",
     "static/media/icon-vue.svg": "/static/media/icon-vue.794e612aa9ab0124da8e.svg",
-    "main.35374a15.css.map": "/static/css/main.35374a15.css.map",
-    "main.cd739753.js.map": "/static/js/main.cd739753.js.map"
+    "main.7cbcf49e.css.map": "/static/css/main.7cbcf49e.css.map",
+    "main.7ae1e60b.js.map": "/static/js/main.7ae1e60b.js.map"
   },
   "entrypoints": [
-    "static/css/main.35374a15.css",
-    "static/js/main.cd739753.js"
+    "static/css/main.7cbcf49e.css",
+    "static/js/main.7ae1e60b.js"
   ]
 }
